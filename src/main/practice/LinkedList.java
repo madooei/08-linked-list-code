@@ -105,7 +105,7 @@ public class LinkedList<T> {
     return removed;
   }
 
-  // Walk to the node at a given index, from whichever end is nearer.
+  // Traverse to the node at a given index, from whichever end is nearer.
   private Node<T> node(int index) {
     if (index < 0 || index >= size) {
       throw new IndexOutOfBoundsException();

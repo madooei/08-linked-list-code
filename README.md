@@ -43,7 +43,7 @@ course. The scripts above are all you need.
   `prev`. The public surface matches `DynamicArray` — `add`, `get`, `set`,
   `size`, `contains`, `indexOf`, and the two `remove` overloads — so code written
   against those operations could be handed either class. The private `node(index)`
-  walk starts from whichever end is nearer. `add` and `remove` branch on the ends
+  traversal starts from whichever end is nearer. `add` and `remove` branch on the ends
   of the list (the empty case, the head, the tail).
 - `linkedlist.Main` — a runnable demo: build a list, read and update it by index,
   search it, remove by index and by value, and the `remove(int)` vs `remove(T)`

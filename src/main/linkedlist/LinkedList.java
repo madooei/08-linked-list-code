@@ -104,7 +104,7 @@ public class LinkedList<T> {
     return true;
   }
 
-  // Walk to the node at a given index. Private — nodes never leave the class.
+  // Traverse to the node at a given index. Private — nodes never leave the class.
   private Node<T> node(int index) {
     if (index < size / 2) {
       Node<T> current = head;
